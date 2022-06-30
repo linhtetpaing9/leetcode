@@ -33,4 +33,6 @@ var romanToInt = function (s) {
   return result;
 };
 
-const result = romanToInt("LVIII");
+const result = romanToInt("MMXXII");
+
+console.log({result})
