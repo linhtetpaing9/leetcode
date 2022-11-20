@@ -21,12 +21,12 @@ var rotate = function (nums, k) {
   // k = k % n
   // console.log({k})
 
-  // while (i != 0) {
-  //   const last = nums.length - 1;
-  //   nums = [nums[last], ...nums.slice(0, last)];
-  //   console.log(nums.slice(0, last));
-  //   i--;
-  // }
+  while (i != 0) {
+    const last = nums.length - 1;
+    nums = [nums[last], ...nums.slice(0, last)];
+    console.log(nums.slice(0, last));
+    i--;
+  }
 
   // const reverse = () => {
 
