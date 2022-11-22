@@ -10,7 +10,6 @@ var isPalindrome = function (x) {
   const result = [];
 
   for (let i = 0; i < list.length / 2; i++) {
-    console.log({ i });
     result.push(list[i] === reverseList[i]);
   }
 
